@@ -15,19 +15,19 @@ We implement a sequence-to-sequence transformer model with:
 
 ---
 
-## 🗂 Project Structure
+## 🗂 File Structure
 
 ```
 ├── model.py               # Transformer model definition
 ├── preprocess.py          # Preprocessing and BPE tokenizer (no EOS token)
 ├── preprocess_eos.py      # Preprocessing with explicit EOS token
-├── train.py               # Training loop for base model
-├── train_eos.py           # Training with EOS-aware decoding
 ├── preprocess_output.log  # Logs of preprocessing execution
-├── tokenizer/             # Tokenizer files saved here (vocab.json, merges.txt)
-├── tokenizer_eos/         # Tokenizer files with EOS handling
-├── checkpoints/           # Model checkpoints (from train.py)
-├── checkpoints_EOSMODEL/  # Model checkpoints (from train_eos.py)
+├── README.md              # README file
+├── requirements.txt       # Requirements file with python dependencies
+├── train.py               # Training without EOS tokens
+├── train_eos.py           # Training with EOS-aware decoding
+├── train_output.log       # Sample logs for non EOS training
+├── trainEOS_output.log       # Sample logs for EOS-aware training
 ```
 
 ---
