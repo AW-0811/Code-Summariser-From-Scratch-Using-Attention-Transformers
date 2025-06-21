@@ -27,7 +27,7 @@ We implement a sequence-to-sequence transformer model with:
 ├── train.py               # Training without EOS tokens
 ├── train_eos.py           # Training with EOS-aware decoding
 ├── train_output.log       # Sample logs for non EOS training
-├── trainEOS_output.log       # Sample logs for EOS-aware training
+├── trainEOS_output.log    # Sample logs for EOS-aware training
 ```
 
 ---
